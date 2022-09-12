@@ -1,0 +1,21 @@
+# Created at 2022-07-31T23:27:57.058
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '90m# org.example.stepDefs.D08_wishlistStepDef.htcWishlist()[0m'.
+
+# Created at 2022-07-31T23:27:57.058
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '  [32mThen [0m[32mverify that success message is appear[0m                        [90m# org.example.stepDefs.D08_wishlistStepDef.successMessageSoft()[0m'.
+
+# Created at 2022-07-31T23:27:57.058
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '@smoke'.
+
+# Created at 2022-07-31T23:27:57.074
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Scenario: select wishlist for HTC and click on wishlist page        [90m# src/main/resources/features/F08_Wishlist.feature:7[0m'.
+
+# Created at 2022-07-31T23:27:57.074
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '  [32mWhen [0m[32muser click the wishlist button for HTC[0m                       [90m# org.example.stepDefs.D08_wishlistStepDef.htcWishlist()[0m'.
+
+# Created at 2022-07-31T23:27:57.074
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '  [32mAnd [0m[32mclick on wishlist button after successes message is disappear[0m [90m# org.example.stepDefs.D08_wishlistStepDef.wishlistButton()[0m'.
+
+# Created at 2022-07-31T23:27:57.371
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '  [32mThen [0m[32mcheck that the quantity is bigger than 0[0m                     [90m# org.example.stepDefs.D08_wishlistStepDef.verifyQuantity()[0m'.
+

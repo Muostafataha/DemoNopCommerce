@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="19" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="252236" started-at="2022-09-12T17:52:31 EET" finished-at="2022-09-12T17:56:44 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="252236" started-at="2022-09-12T17:52:31 EET" finished-at="2022-09-12T17:56:44 EET">
+      <class name="org.example.testRunner.runners">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="setUpClass" is-config="true" duration-ms="1196" started-at="2022-09-12T17:52:31 EET" finished-at="2022-09-12T17:52:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d1cb59f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="26640" started-at="2022-09-12T17:52:33 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:52:59 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Guest user could registration with valid data successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F01_register | Users could register with new accounts"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="11623" started-at="2022-09-12T17:52:59 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:53:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could login with valid email and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F02_SignIn | Users could use login functionality to use their accounts"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="12061" started-at="2022-09-12T17:53:11 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:53:23 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could login with Invalid email and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F02_SignIn | Users could use login functionality to use their accounts"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="11318" started-at="2022-09-12T17:53:23 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:53:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select Euro currency from the dropdown list and verify Euro Symbol (€) is shown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F03_currencies | Select Euro currency from the dropdown list on the top left of home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="11222" started-at="2022-09-12T17:53:34 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:53:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search by using product name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_Search | user use search par to find different product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="11462" started-at="2022-09-12T17:53:46 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:53:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search by using product name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_Search | user use search par to find different product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="11107" started-at="2022-09-12T17:53:57 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:54:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search by using product name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_Search | user use search par to find different product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="12871" started-at="2022-09-12T17:54:08 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:54:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search by using product sku"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_Search | user use search par to find different product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="11685" started-at="2022-09-12T17:54:21 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:54:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search by using product sku"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_Search | user use search par to find different product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="12159" started-at="2022-09-12T17:54:33 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:54:45 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search by using product sku"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_Search | user use search par to find different product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="10763" started-at="2022-09-12T17:54:45 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:54:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select random main categories and random sub categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F05_HoverCategories | select random category from main categories and select random sub categories"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="9729" started-at="2022-09-12T17:54:56 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:55:05 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["first slider is clickable on home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F06_HomeSliders | select two slider from home page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at org.example.stepDefs.D06_homeSlidersStepDef.assertFirstSliderUrl(D06_homeSlidersStepDef.java:20)
+at ✽.assert that relative product for first slider is opened and url is changed(file:///E:/My_Work/Automation_Project/mostafa_demonopcommerce/demonopcommerce/src/main/resources/features/F06_HomeSliders.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="14304" started-at="2022-09-12T17:55:05 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:55:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["second slider is clickable on home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F06_HomeSliders | select two slider from home page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at org.example.stepDefs.D06_homeSlidersStepDef.assertSecondSliderUrl(D06_homeSlidersStepDef.java:32)
+at ✽.assert that relative product for second slider is opened and url is changed(file:///E:/My_Work/Automation_Project/mostafa_demonopcommerce/demonopcommerce/src/main/resources/features/F06_HomeSliders.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="12394" started-at="2022-09-12T17:55:20 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:55:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user opens facebook link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F07_FollowUS | you will find "Follow us" links at the end of the page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="12099" started-at="2022-09-12T17:55:32 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:55:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user opens twitter link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F07_FollowUS | you will find "Follow us" links at the end of the page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="13715" started-at="2022-09-12T17:55:44 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:55:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user opens rss link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F07_FollowUS | you will find "Follow us" links at the end of the page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 1, Size: 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+at java.util.ArrayList.get(ArrayList.java:435)
+at org.example.stepDefs.D07_followUsStepDef.verifyRssTap(D07_followUsStepDef.java:56)
+at ✽.verify that rss tap is open(file:///E:/My_Work/Automation_Project/mostafa_demonopcommerce/demonopcommerce/src/main/resources/features/F07_FollowUs.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="16923" started-at="2022-09-12T17:55:58 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:56:15 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user opens youtube link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F07_FollowUS | you will find "Follow us" links at the end of the page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="11278" started-at="2022-09-12T17:56:15 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:56:26 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["select wishlist for htc mobile and verify success message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F08_Wishlist | user could add products to wishlist"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="runScenario" duration-ms="16436" started-at="2022-09-12T17:56:26 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-12T17:56:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["select wishlist for HTC and click on wishlist page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F08_Wishlist | user could add products to wishlist"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.example.testRunner.runners@7cbd213e]" name="tearDownClass" is-config="true" duration-ms="1219" started-at="2022-09-12T17:56:42 EET" finished-at="2022-09-12T17:56:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.example.testRunner.runners -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

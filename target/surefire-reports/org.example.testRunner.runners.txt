@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: org.example.testRunner.runners
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 253.595 s <<< FAILURE! - in org.example.testRunner.runners
+org.example.testRunner.runners.runScenario["first slider is clickable on home page", "F06_HomeSliders | select two slider from home page"](12)  Time elapsed: 9.729 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at org.example.stepDefs.D06_homeSlidersStepDef.assertFirstSliderUrl(D06_homeSlidersStepDef.java:20)
+	at ✽.assert that relative product for first slider is opened and url is changed(file:///E:/My_Work/Automation_Project/mostafa_demonopcommerce/demonopcommerce/src/main/resources/features/F06_HomeSliders.feature:6)
+
+org.example.testRunner.runners.runScenario["second slider is clickable on home page", "F06_HomeSliders | select two slider from home page"](13)  Time elapsed: 14.304 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at org.example.stepDefs.D06_homeSlidersStepDef.assertSecondSliderUrl(D06_homeSlidersStepDef.java:32)
+	at ✽.assert that relative product for second slider is opened and url is changed(file:///E:/My_Work/Automation_Project/mostafa_demonopcommerce/demonopcommerce/src/main/resources/features/F06_HomeSliders.feature:10)
+
+org.example.testRunner.runners.runScenario["user opens rss link", "F07_FollowUS | you will find "Follow us" links at the end of the page"](16)  Time elapsed: 13.715 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at org.example.stepDefs.D07_followUsStepDef.verifyRssTap(D07_followUsStepDef.java:56)
+	at ✽.verify that rss tap is open(file:///E:/My_Work/Automation_Project/mostafa_demonopcommerce/demonopcommerce/src/main/resources/features/F07_FollowUs.feature:13)
+

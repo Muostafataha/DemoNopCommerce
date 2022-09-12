@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="249.961">
+<testcase classname="F01_register | Users could register with new accounts" name="Guest user could registration with valid data successfully" time="26.531">
+<system-out><![CDATA[Given User go to register page..............................................passed
+And User select gender type.................................................passed
+And User enter first name and last name.....................................passed
+And User enter date of birth................................................passed
+And User enter email........................................................passed
+And User fill password fields...............................................passed
+Then User click register....................................................passed
+And Validate that registration is successes.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_SignIn | Users could use login functionality to use their accounts" name="user could login with valid email and password" time="11.592">
+<system-out><![CDATA[Given user go to login page.................................................passed
+And user login with valid email and password................................passed
+Then user press on login button.............................................passed
+And verify signIn successes.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_SignIn | Users could use login functionality to use their accounts" name="user could login with Invalid email and password" time="12.061">
+<system-out><![CDATA[Given user go to login page.................................................passed
+And user login with Invalid email and password..............................passed
+Then user press on login button.............................................passed
+And verify signIn is not successes..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F03_currencies | Select Euro currency from the dropdown list on the top left of home page" name="Select Euro currency from the dropdown list and verify Euro Symbol (€) is shown" time="11.318">
+<system-out><![CDATA[Then User select Euro currency from dropdown list...........................passed
+And verify euro symbol is shown in 4 product in display.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user use search par to find different product" name="Search by using product name" time="11.222">
+<system-out><![CDATA[Given user enter "book" in search par.......................................passed
+Then verify the url.........................................................passed
+And Find number of product in search page...................................passed
+And verify that the search result contain "book"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user use search par to find different product" name="Search by using product name 2" time="11.462">
+<system-out><![CDATA[Given user enter "laptop" in search par.....................................passed
+Then verify the url.........................................................passed
+And Find number of product in search page...................................passed
+And verify that the search result contain "laptop"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user use search par to find different product" name="Search by using product name 3" time="11.107">
+<system-out><![CDATA[Given user enter "nike" in search par.......................................passed
+Then verify the url.........................................................passed
+And Find number of product in search page...................................passed
+And verify that the search result contain "nike"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user use search par to find different product" name="Search by using product sku" time="12.871">
+<system-out><![CDATA[Given user enter "SCI_FAITH" for product in search par......................passed
+Then select product from search result......................................passed
+And verify that the "SCI_FAITH" is appear in product page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user use search par to find different product" name="Search by using product sku 2" time="11.685">
+<system-out><![CDATA[Given user enter "APPLE_CAM" for product in search par......................passed
+Then select product from search result......................................passed
+And verify that the "APPLE_CAM" is appear in product page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user use search par to find different product" name="Search by using product sku 3" time="12.159">
+<system-out><![CDATA[Given user enter "SF_PRO_11" for product in search par......................passed
+Then select product from search result......................................passed
+And verify that the "SF_PRO_11" is appear in product page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="F05_HoverCategories | select random category from main categories and select random sub categories" name="Select random main categories and random sub categories" time="10.763">
+<system-out><![CDATA[Given mouse hover at random main categories.................................passed
+Then Select random sub categories...........................................passed
+And verify that the page title is opened equal the sub category is selected.passed
+]]></system-out>
+</testcase>
+<testcase classname="F06_HomeSliders | select two slider from home page" name="first slider is clickable on home page" time="9.729">
+<failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[When Click on first Slider..................................................passed
+Then assert that relative product for first slider is opened and url is changed.failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at org.example.stepDefs.D06_homeSlidersStepDef.assertFirstSliderUrl(D06_homeSlidersStepDef.java:20)
+	at ✽.assert that relative product for first slider is opened and url is changed(file:///E:/My_Work/Automation_Project/mostafa_demonopcommerce/demonopcommerce/src/main/resources/features/F06_HomeSliders.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="F06_HomeSliders | select two slider from home page" name="second slider is clickable on home page" time="14.304">
+<failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[When Click on second Slider.................................................passed
+Then assert that relative product for second slider is opened and url is changed.failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at org.example.stepDefs.D06_homeSlidersStepDef.assertSecondSliderUrl(D06_homeSlidersStepDef.java:32)
+	at ✽.assert that relative product for second slider is opened and url is changed(file:///E:/My_Work/Automation_Project/mostafa_demonopcommerce/demonopcommerce/src/main/resources/features/F06_HomeSliders.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="F07_FollowUS | you will find &quot;Follow us&quot; links at the end of the page" name="user opens facebook link" time="12.394">
+<system-out><![CDATA[When User select facebook icon..............................................passed
+Then verify that facebook tap is open.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_FollowUS | you will find &quot;Follow us&quot; links at the end of the page" name="user opens twitter link" time="12.099">
+<system-out><![CDATA[When User select twitter icon...............................................passed
+Then verify that twitter tap is open........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_FollowUS | you will find &quot;Follow us&quot; links at the end of the page" name="user opens rss link" time="13.715">
+<failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[When User select rss icon...................................................passed
+Then verify that rss tap is open............................................failed
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at org.example.stepDefs.D07_followUsStepDef.verifyRssTap(D07_followUsStepDef.java:56)
+	at ✽.verify that rss tap is open(file:///E:/My_Work/Automation_Project/mostafa_demonopcommerce/demonopcommerce/src/main/resources/features/F07_FollowUs.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="F07_FollowUS | you will find &quot;Follow us&quot; links at the end of the page" name="user opens youtube link" time="16.923">
+<system-out><![CDATA[When User select youtube icon...............................................passed
+Then verify that youtube tap is open........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F08_Wishlist | user could add products to wishlist" name="select wishlist for htc mobile and verify success message" time="11.278">
+<system-out><![CDATA[When user click the wishlist button for HTC.................................passed
+Then verify that success message is appear..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F08_Wishlist | user could add products to wishlist" name="select wishlist for HTC and click on wishlist page" time="16.436">
+<system-out><![CDATA[When user click the wishlist button for HTC.................................passed
+And click on wishlist button after successes message is disappear...........passed
+Then check that the quantity is bigger than 0...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
